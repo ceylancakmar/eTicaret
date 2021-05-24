@@ -1,0 +1,121 @@
+
+.form-horizontal{
+    width: 850px;
+    height: 600px;
+    border:2px solid rgb(148, 153, 167);
+    background-color:rgb(171, 193, 224);
+    text-align: center;
+    margin: 40px 150px 60px 180px;
+    padding-top: 100px;
+   
+
+}
+
+.kutu{
+    width: 550px;
+    height: 270px;
+   
+}
+
+.form-control{
+    width: 410px;
+    height: 40px;
+  
+}
+
+
+  /*--MEDYA SORGULARI(Responsive)--*/
+
+  @media screen and (max-width:960px) {
+
+
+    
+.form-horizontal{
+    width: 600px;
+    height: 800px;
+    border:2px solid rgb(148, 153, 167);
+    background-color:rgb(171, 193, 224);
+    text-align: center;
+    margin: 40px 150px 60px 350px;
+    padding-top: 100px;
+    margin-left:50px;
+    margin-top: 70px;
+
+}
+
+.kutu{
+
+   white-space: nowrap; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+ 
+label{
+    text-align: center;
+    float: left;
+    padding-top: -15px;
+}
+ 
+label p{
+    margin-bottom:-15px;
+}
+.form-control{
+    padding-right:50px;
+    width: 310px;
+    height: 40px;
+}
+  
+  }
+     
+  @media screen and (max-width:720px) {
+  
+      form{
+          width: 550px;
+          height: 800px;
+          border:2px solid rgb(148, 153, 167);
+          background-color:rgb(171, 193, 224);
+          text-align: center;
+          margin: 40px 450px 60px 150px;
+          padding-top: 60px;
+          margin-left:90px;
+          flex-direction:column;
+          padding-left:35px;
+      }
+  
+   
+  }
+
+     @media screen and (max-width:540px) { 
+      .form-horizontal{
+          width: 400px;
+          height: 800px;
+          border:2px solid rgb(148, 153, 167);
+          background-color:rgb(171, 193, 224);
+          text-align: center;
+          margin: 40px 150px 60px 350px;
+          margin-left:50px;
+          flex-direction:column;
+          padding-top: 40px;
+      
+        }
+        
+  .kutu{
+
+    white-space: nowrap; 
+     border: 1px solid #000000;
+     overflow: hidden;
+     width: 370px;
+     height: 360px;
+     margin-left: -25px;
+     margin-bottom: 50px;
+   
+    }
+     .col-md-4 input{
+         width:180px;
+     }
+    
+     }

@@ -1,0 +1,65 @@
+
+     /*İLETİSİM*/
+.formItem{
+	margin-bottom:10px;
+	width:100%;
+ }
+ .formSekil{
+	color:#fff;
+	float:left;
+	background:#092155;
+	padding:8px;
+	width:8%;
+	text-align:center;
+  border-radius: 8px 8px 8px 8px;
+ }
+ .formAlan{
+	color:#fff;
+	background:#d8d2d7;
+	border:none;
+	padding:15.5px;
+	width:92%;
+	display:block;
+	font-size:14px;
+	
+ }
+ .formBTN{
+	display:block;
+	border:none;
+	background:#092155;
+	color:#fff;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+  border-radius: 8px 8px 8px 8px;
+ }
+ .formBTN:hover{
+	background:#841916;	
+ }
+ #contact{
+   background-color: #19219e;
+ }
+ .sectionArea{
+    padding:80px 0;
+     
+  } 
+
+ .contactTop{
+	text-align:center;
+ }
+ 
+ .kutu{
+	margin:0 auto;
+	width:100%;
+ }
+ 
+ .contactForm{
+	margin:0 auto;
+	width:60%;
+ }
+.sectionHeader{
+text-align: center;
+}
+ 
+ 

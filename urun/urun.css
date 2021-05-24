@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  background: #33756a;
+}
+
+
+.bar {
+  position: relative;
+  margin: 1.5em auto 1em auto;
+  right: 1.5em;
+  height: 1.5px;
+  width: 25%;
+  background: #16A085;
+}
+
+.close {
+  position: relative;
+  height: 1.25em;
+  width: 1.25em;
+  top: -.2em;
+  right: 38%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  background: grey;
+  cursor: pointer;
+}
+
+.close .glyphicon {
+  left: .6em;
+  top: 1px;
+  font-size: 12px;
+}
+
+.button {
+  position: relative;
+  height: 5em;
+  width: 20.5em;
+  left: -1em;
+  margin: 0 auto;
+  font-family: Lato;
+  overflow: hidden;
+  top: 1.5em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-box-shadow: 10px 10px 60px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 10px 10px 60px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 10px 60px 10px rgba(0, 0, 0, 0.15);
+}
+
+.add {
+  background: #16A085;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 1.25em;
+  font-family: Lato;
+}
+
+.checkout {
+  position: relative;
+  height: 3.9em;
+  width: 8em;
+  text-align: center;
+  background: #34495E;
+  margin-top: -2.35em;
+  margin-left: -8.1em;
+  border: 1px solid transparent;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+}
+
+.cont {
+  position: relative;
+  height: 3.9em;
+  width: 8em;
+  text-align: center;
+  background: #2C3E50;
+  margin-top: -3.9em;
+  margin-left: 16.2em;
+  border: 1px solid transparent;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+}
+
+.glyphicon {
+  top: 1.2em;
+  color: #fff;
+}
+
+a span {
+  padding-left: 7px;
+  color: #fff;
+  font-family: Lato;
+}
+
+.checkout:hover {
+  background: #22A7F0;
+}
+
+.cont:hover {
+  background: #455C70;
+}

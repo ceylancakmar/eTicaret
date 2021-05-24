@@ -1,0 +1,101 @@
+#hakkimda{
+	background-color:rgb(230, 179, 179);
+    margin-bottom:-45px;
+
+ }
+ 
+ .hakkimdaTop{
+	text-align:center;
+ }
+ 
+ .hakkimdaText{
+  padding:30px 50px 30px 50px ;
+
+ }
+ .hakkimdaBody{
+	display:flex;
+	width:100%;
+	
+ }
+
+ .container2Top{
+    text-align:center;
+	font-size:25px;
+	color:black;
+	font-family:bold;
+	margin-bottom:15px;
+  }
+ .container2Top strong{
+    background-color:#bebebe;
+  }
+ .container2Body .container_Fluid{
+	display:flex;
+	width:100%;
+	
+ }
+ .container2Uye{
+	position:relative;
+	width:100%;
+ }
+ .container2Uye img{
+	display:block;
+	width:100%;
+	height:100%;
+ }
+ .container2Body .col3
+ {
+	display:flex;
+	width:350px;
+	height:350px;
+
+ }
+   .container2UyeOverlay
+   {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	opacity:1;
+	background-color:#5876d8;
+	transition:.5 ease;
+}
+ 
+ .container2Uye:hover .container2UyeOverlay{
+	opacity:0;
+	
+ }
+ 
+ .container2Uye:hover .container2UyeBilgi{
+	color:#fff;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+ }
+ .uyeTitle{
+	color:#fff;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+ }
+ 
+   .container2UyeBilgi
+   {
+	color:#fff;
+	background-color: rgba(48, 114, 18, 0.7);
+	position:absolute;
+	top:0;
+	left:50%;
+	transform: translateX(-50%);
+	transition:.5 ease;/*bi anda ortaya çıkmaması için*/
+	padding:20px;
+	text-align:center;
+ }
+ 
+

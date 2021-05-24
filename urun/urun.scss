@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+$body: #03C9A9;
+
+$add: #16A085;
+$checkout: #34495E;
+$cont: #2C3E50;
+
+$checkhover: #22A7F0;
+$conthover: #455C70;
+
+$rad: 10px;
+$close: 100%;
+$transition: all 500ms ease;
+
+body {
+  background: $body;
+}
+
+#big {
+  position: relative;
+  font-family: Lato;
+  text-align: center;
+  left: -.55em;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.bar {
+  position: relative;
+  margin: 1.5em auto 1em auto;
+  right: 1.5em;
+  height: 1.5px;
+  width: 25%;
+  background: $add;
+}
+
+.close {
+  position: relative;
+  height: 1.25em;
+  width: 1.25em;
+  top: -.2em;
+  right: 38%;
+  border-radius: $close;
+  -webkit-border-radius: $close;
+  background: grey;
+  cursor: pointer;
+}
+
+.close .glyphicon {
+  left: .6em;
+  top: 1px;
+  font-size: 12px;
+}
+
+.button {
+  position: relative;
+  height: 5em;
+  width: 20.5em;
+  left: -1em;
+  margin: 0 auto;
+  font-family: Lato;
+  overflow: hidden;
+  top: 1.5em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: $rad;
+  -webkit-border-radius: $rad;
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+-webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.15);
+-moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.15);
+box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.15);
+}
+
+.add {
+  background: $add;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: $rad;
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 1.25em;
+  font-family: Lato;
+}
+
+.checkout {
+  position: relative;
+  height: 3.9em;
+  width: 8em;
+  text-align: center;
+  background: $checkout;
+  margin-top: -2.35em;
+  margin-left: -8.1em;
+  border: 1px solid transparent;
+  border-top-left-radius: $rad;
+  border-bottom-left-radius: $rad;
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+}
+
+.cont {
+  position: relative;
+  height: 3.9em;
+  width: 8em;
+  text-align: center;
+  background: $cont;
+  margin-top: -3.9em;
+  margin-left: 16.2em;
+  border: 1px solid transparent;
+  border-top-right-radius: $rad;
+  border-bottom-right-radius: $rad;
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+}
+
+.glyphicon {
+  top: 1.2em;
+  color: #fff;
+}
+
+a span {
+  padding-left: 7px;
+  color: #fff;
+  font-family: Lato;
+}
+
+.checkout:hover {
+  background: $checkhover;
+}
+
+.cont:hover {
+  background: $conthover;
+}

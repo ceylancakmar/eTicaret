@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Anasayfa</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    
+   
+</head>
+
+<body>
+    <header>
+
+        <!-- HEADER  -->
+
+        <div class="container_header">
+            <div id="header_div1">
+                <p id="header_p1">SpacePods</p>
+                <p id="header_p2">Bluetoot Kulaklık SATIŞTA!</p>
+                <button id="button_incele">HEMEN İNCELE</button>
+            </div>
+
+            <div id="header_div2">
+                <p>Resmi Satış Mağazası</p>
+                <b>
+                    <p style="color:blue">SİMEX</p>
+                </b>
+            </div>
+        </div>
+
+
+        <!-- FORM  nav -->
+        <nav>
+
+             <!-- search kısmı -->
+            <form class="arama" style="margin-left:-90px;">
+                <input type="text" placeholder="Arama" name="search">
+                <button name="arama_icon" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+
+
+
+            <section id="home">
+              
+                <a href="./index.html" style="margin-left:-90px;color:rgb(165, 165, 165);font-size: 40px;"><i class="fa fa-home"></i></a>
+            </section>
+
+
+            <!-- sepetime git formu -->
+            <form id="sepet" class="sepet">
+                <a href="./urun/urun.html" name="sepet" style="margin-left:860px;" class="sepetim">Sepetim
+                    <i style="margin-left:8px;" class="fa fa-shopping-bag"></i></a>
+            </form>
+
+            <!-- drop-down -->
+            <form class="drop">
+                <select  style="margin-left:690px;" id="drop" name="drop-down " class="drop-down " onchange="location = this.value">
+                    <option id="text1" value="">Giriş İşlemleri</option>
+                    <option id="text2" value="giris/giris.html">Giriş yap</option>
+                    <option id="text3" value="uye/uye.html">Üye ol</option>
+                    <option id="text_drop" value="bayi/bayi.html">Bayi girişi</option>
+                    <option id="text4" value="goruntule/goruntule.html">Favorilerim</option>
+                    <option id="text5" value="giris/giris.html">Hesabım</option>
+                    <option id="text6" value="urun/urun.html">Siparişlerim</option>
+                </select>
+            </form>
+
+
+        </nav>
+
+    </header>
+
+
+    <!-- SECTİON1-->
+    <section id="tema" class="sectionArea">
+
+        <section class="section_div1" style=" height:5px; background-color:#175180;">
+            <div id="section_div2">
+                <h6 class="section_div3">Kulaklıklar</h6>
+            </div>
+            <div id="section_div4">
+                <i id="icon1" class="fa fa-headphones" style="font-size:30px; padding-bottom:28px; color:rgb(11, 11, 12)"></i>
+                <button class="btn1" onClick="location.href='./goruntule/goruntule.html'">Tümünü görüntüle</button>
+            </div>
+
+        </section>
+
+        <div class="temaBody">
+
+
+            <div class="slideshow-container1">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <div class="section_container" style="width:100%">
+
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık1.jpg" width="300" height="300">
+                                </div>
+
+                                <div class="itemText">
+                                    <h4>99,99 TL</h4>
+                                    <s>150,00 TL</s>&nbsp; %13
+
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık
+                                    </p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i  id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık4.jpg" width="300" height="300">
+                                </div>
+                                <div class="itemText">
+                                    <h4>29,90 TL</h4>
+                                    <s>39,90 TL</s>&nbsp; %12
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık</p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık5.jpg" width="300" height="300">
+                                </div>
+                                <div class="itemText">
+                                    <h4>27,90 TL</h4>
+                                    <s>34,00 TL</s>&nbsp; %13
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık</p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+
+                    <div class="section_container" style="width:100%">
+
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık2.jpg" width="300" height="300">
+                                </div>
+
+                                <div class="itemText">
+                                    <h4>45,99 TL</h4>
+                                    <s>50,00 TL</s>&nbsp; %13
+
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık
+                                    </p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık7.jpg" width="300" height="300">
+                                </div>
+                                <div class="itemText">
+                                    <h4>50,90 TL</h4>
+                                    <s>64,90 TL</s>&nbsp; %12
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık</p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık8.jpg" width="300" height="300">
+                                </div>
+                                <div class="itemText">
+                                    <h4>27,90 TL</h4>
+                                    <s>34,00 TL</s>&nbsp; %13
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık</p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <div class="section_container" style="width:100%">
+
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık4.jpg" width="300" height="300">
+                                </div>
+
+                                <div class="itemText">
+                                    <h4>43,99 TL</h4>
+                                    <s>50,00 TL</s>&nbsp; %13
+
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık
+                                    </p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık3.jpg" width="300" height="300">
+                                </div>
+                                <div class="itemText">
+                                    <h4>295,90 TL</h4>
+                                    <s>350,00 TL</s>&nbsp; %12
+                                    <p> Ifrogz Audio Aurora Kablolu Kulak Üstü  Fm-radyo destekli mikrofonlu kulaklık
+                                    </p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col3">
+                            <div class="item">
+                                <div class="zoom">
+                                    <img src="./img/kulaklık6.jpg" width="300" height="300">
+                                </div>
+                                <div class="itemText">
+                                    <h4>27,90 TL</h4>
+                                    <s>39,90 TL</s>&nbsp; %13
+                                    <p>Snopy Sn-78 Kulaklık kulak içi kulaklık Fm-radyo destekli mikrofonlu kulaklık</p>
+
+                                    <div>
+                                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                                    </div>
+                                    <p>Stok durumu:VAR</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text">Caption Three</div>
+                </div>
+
+
+                <a style="border-radius: 25px 25px 25px 25px; margin-top:-50px; 
+               background-color: rgb(209, 214, 214); padding: 7px 12px 7px 12px;margin-left: -23px;"
+                class="prev"
+                     onclick="plusSlides(-1, 0)">&#10094;</a>
+
+                <a style="border-radius: 25px 25px 25px 25px; margin-top:-50px; margin-right:-23px; 
+              background-color: rgb(209, 214, 214); padding: 7px 12px 7px 12px;" 
+              class="next"
+                    onclick="plusSlides(1, 0)">&#10095;</a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    
+        <!-- SECTİON2-->
+        <section id="tema" class="sectionArea">
+
+            <section class="section_div1" style=" height:5px; background-color:#157a07;">
+              <div id="section_div2" >	 
+                <h6 class="section_div3">Koruma Kılıfları</h6>
+              </div>
+             <div  id="section_div4">
+                <i id="icon1" class="fa fa-mobile" style="font-size:40px; padding-bottom:40px; color:rgb(11, 11, 12)"></i>
+                <button  style="color: #157a07;"class="btn1" onClick="location.href='./goruntule/goruntule.html'">Tümünü görüntüle</button>
+             </div>	
+           
+             </section> 
+    
+        <div class="temaBody">	
+          <div class="section_container">
+    
+            
+            <div class="col3">
+               <div class="item">
+                 <div class="zoom">
+                   <img src="./img/kılıf1.jpg" width="300" height="300">
+                 </div>
+                 
+                 <div class="itemText">
+                    <h4>34,99 TL</h4>
+                    <s>50,00 TL</s>&nbsp; %13
+                     
+                    <p>Xiaomi Redmi Note 8 Kılıf Vega Tank Zırh Metal Yüzüklü Standlı
+                    </p>
+                
+                   <div>
+                  <button class="sepeteEkleButonu"  onclick="Validation()">Sepete Ekle
+                    <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                </div>
+                   <p>Stok durumu:VAR</p>
+    
+                </div>	
+               </div>	
+          </div>
+          
+          <div class="col3">
+            <div class="item">
+              <div class="zoom">
+                <img src="./img/kılıf2.jpg" width="300" height="300">
+              </div>
+              <div class="itemText">
+                <h4>49,90 TL</h4>
+                <s>64,90 TL</s>&nbsp; %12
+                <p>Xiaomi Redmi 9C Kılıf Vega Zırhlı Standlı Yüzüklü Tank Kapak</p>
+                
+                <div>
+                    <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                        <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                  </div>
+                     <p>Stok durumu:VAR</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col3">
+            <div class="item">
+              <div class="zoom">
+                <img src="./img/kılıf3.jpg" width="300" height="300">
+              </div>
+              <div class="itemText">
+                <h4>27,90 TL</h4>
+                <s>34,00 TL</s>&nbsp; %13
+                <p>Xiaomi Poco X3 Nfc Kılıf Kamera Korumalı İçi Kadife Lüx Kapak</p>
+                    
+                    <div>
+                        <button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+                      </div>
+                         <p>Stok durumu:VAR</p>
+    
+              </div>
+            </div>
+          </div>
+    
+    
+          <a style="border-radius: 25px 25px 25px 25px;  margin-top:880px;
+          background-color: rgb(209, 214, 214); padding: 7px 12px 7px 12px;margin-left: -23px;"
+          class="prev1" onclick="plusSlides(-1, 0)">&#10094;</a>
+          
+          <a style="border-radius: 25px 25px 25px 25px; margin-top:880px; margin-right:52px; 
+          background-color: rgb(209, 214, 214);padding: 7px 12px 7px 12px;"
+          class="next1" onclick="plusSlides(1, 0)">&#10095;</a>
+    
+    
+         </div>
+       </div>
+      </section> 
+    
+ <!-- SECTİON3-->
+ <section id="tema" class="sectionArea">
+
+	<section class="section_div1" style="height:5px;background-color:#175180;">
+	  <div id="section_div2" >	 
+		<h6 class="section_div3">Usb Kablo</h6>
+	  </div>
+	 <div  id="section_div4">
+		<i id="icon1" class="fa fa-usb" style="font-size:30px; padding-bottom:30px; color:rgb(11, 11, 12)"></i>
+		<button  class="btn1" onClick="location.href='./goruntule/goruntule.html'">Tümünü görüntüle</button>
+	 </div>	
+   
+	 </section> 
+
+<div class="temaBody">	
+  <div class="section_container">
+
+	
+	<div class="col3">
+	   <div class="item">
+		 <div class="zoom">
+		   <img src="./img/usb1.jpg" width="300" height="300">
+		 </div>
+		 
+		 <div class="itemText">
+			<h4>19,99 TL</h4>
+			<s>30,00 TL</s>&nbsp; %13
+			 
+			<p>Syrox SYX-C89 Samsung 2 Mah Micro USB Kablo
+			</p>
+		
+		   <div>
+		  <button class="sepeteEkleButonu"  onclick="Validation()">Sepete Ekle
+            <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+		</div>
+		   <p>Stok durumu:VAR</p>
+
+		</div>	
+	   </div>	
+  </div>
+  
+  <div class="col3">
+	<div class="item">
+	  <div class="zoom">
+		<img src="./img/usb2.jpg" width="300" height="300">
+	  </div>
+	  <div class="itemText">
+		<h4>49,90 TL</h4>
+		<s>64,90 TL</s>&nbsp; %12
+		<p>Zigver Micro USB 2A Hızlı Şarj ve Data Kablosu</p>
+		
+		<div>
+			<button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+		  </div>
+			 <p>Stok durumu:VAR</p>
+	  </div>
+	</div>
+  </div>
+  
+  <div class="col3">
+	<div class="item">
+	  <div class="zoom">
+		<img src="./img/usb3.jpg" width="300" height="300">
+	  </div>
+	  <div class="itemText">
+		<h4>18,90 TL</h4>
+		<s>30,00 TL</s>&nbsp; %13
+		<p>Huawei Mate Micro USB Şarj ve Data Kablosu
+        </p>
+			
+			<div>
+				<button class="sepeteEkleButonu" onclick="Validation()">Sepete Ekle
+                    <i id="SepetEkleikonu" class="fa fa-shopping-bag"></i></button>
+			  </div>
+				 <p>Stok durumu:VAR</p>
+
+	  </div>
+	</div>
+  </div>
+
+
+   
+  <a style="border-radius: 25px 25px 25px 25px;  margin-top:1600px; 
+  background-color:rgb(209, 214, 214); padding: 7px 12px 7px 12px;margin-left: -23px;"
+  class="prev2" onclick="plusSlides(-1, 0)">&#10094;</a>
+  
+  <a style="border-radius: 25px 25px 25px 25px; margin-top:1600px; margin-right:52px; padding-bottom:50px;
+  background-color:rgb(209, 214, 214); padding: 7px 12px 7px 12px;"
+  class="next2" onclick="plusSlides(1, 0)">&#10095;</a>
+
+ </div>
+</div>
+
+</section> 
+
+
+    <!--FOOTER SECTİON-->
+    <footer class="sectionArea">
+        <div class="container">
+            <div class="col3">
+                <div class="footerItem">
+                    <p>Powerbank<br>Bataryalar<br> Bluetooth Kulaklıklar<br>AUX Bağlantı Kabloları<br>
+                        Bluetooth Hoparlörler<br>Kablolu Kulaklıklar<br> Şarj Cihazı<br>Data Kabloları<br>
+                        Flaş Bellekler<br>Tripod ve Çekim ekipmanları<br> Dönüştürücü Aparatlar<br>Diğer Aksesuarlar<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3 style="margin-left:50px;">Hakkımızda<h3>
+                            <ul class="footerLinks">
+                                <a href="./index.html">Anasayfa</a><br>
+                                <a href="./hikayemiz/hikayemiz.html">Hikayemiz</a><br>
+                                <a href="./iletisim/iletisim.html">İletişim</a>
+
+
+                            </ul>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>Müşteri Hizmetleri<h3>
+                            <p>Arıza Bildirim Formu<br>Teknik Servis Ürün Sorgulama<br>İptal Ve İade Prosedürü</p>
+                </div>
+            </div>
+
+            <div class="col3">
+                <div class="footerItem">
+                    <h3 style="margin-left:70px;font-size: 15px;">Bizden Haberdar Olun<h3>
+                            <div class="socialLinks">
+
+
+
+                                <a id="social" href="https://twitter.com/" target="_blank">
+                                    <div class="twitter" style="padding-top:5px">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </div>
+                                </a>
+
+                                <a id="social" href="https://www.youtube.com/" target="_blank">
+                                    <div class="youtube" style="padding-top:5px">
+                                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    </div>
+                                </a>
+                                <a id="social" href="https://github.com/" target="_blank">
+                                    <div class="github" style="padding-top:5px">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                    </div>
+                                </a>
+                                <a id="social" href="https://www.facebook.com/" target="_blank">
+                                    <div class="facebook" style="padding-top:5px">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                </div>
+            </div>
+
+        </div>
+        <small style="color:rgb(13, 14, 14)"> Ceylan Çakmar&copy;2021 | Tüm Hakları Saklıdır.</small>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 1500); // Change image every 2 seconds
+        }
+    </script>
+   </body>
+
+</html>

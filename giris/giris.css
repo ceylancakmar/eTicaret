@@ -1,0 +1,77 @@
+
+form{
+    width: 500px;
+    height: 500px;
+    border:5px solid;
+    background-color:rgb(48, 85, 141);
+    text-align: center;
+    margin: 40px 150px 60px 350px;
+    padding-top: 100px;
+
+}
+#kullaniciad{
+    margin-bottom: 13px;
+    width: 210px;
+    height: 30px;
+}
+
+#kullanicisifre{
+    width: 210px;
+    height: 30px;
+    margin-bottom: 13px;
+
+}
+button{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.result {color:red}
+
+    /*--MEDYA SORGULARI(Responsive)--*/
+
+ @media screen and (max-width:960px) {
+
+
+  form{
+    width: 500px;
+    height: 500px;
+    border:5px solid;
+    background-color:rgb(48, 85, 141);
+    text-align: center;
+    margin: 40px 150px 60px 350px;
+    padding-top: 100px;
+    margin-left:150px;
+
+}
+
+}
+   
+@media screen and (max-width:720px) {
+
+    form{
+        width: 500px;
+        height: 500px;
+        border:5px solid;
+        background-color:rgb(86, 175, 26);
+        text-align: center;
+        margin: 40px 150px 60px 350px;
+        padding-top: 100px;
+        margin-left:90px;
+    }
+    
+}
+   @media screen and (max-width:540px) { 
+    form{
+        width: 400px;
+        height: 300px;
+        border:5px solid;
+        background-color:rgb(141, 48, 102);
+        text-align: center;
+        margin: 40px 150px 60px 350px;
+        padding-top: 100px;
+        margin-left:50px;
+    
+      }
+
+   }

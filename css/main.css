@@ -1,0 +1,163 @@
+ /* GENERAL SETTINGS (genel ayarlar)*/
+ @font-face{
+	font-family:'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf');	
+ }
+
+
+body{
+	/* background-color:rgb(185, 64, 175); */
+	color:#3f3f3f;
+	font:14px /28px arial;
+	font-family:'Raleway',arial;
+	
+}
+
+
+ h1{
+
+  font-size:52px;
+  letter-spacing:4px;
+  margin-bottom:20px;
+
+}
+
+ h4{
+	font-size:14px;
+    color:#020202;
+	transition:all .5 ease;
+ }
+ 
+ .sectionArea{
+   padding:80px 0;
+    
+ }
+ 
+ 
+  /*GRİD SETTINGS*//*grid ayarları*/
+ .container{
+	 width:90%;
+	 margin:0 auto;
+	 display:flex;
+	 
+ }	
+ .temaBody.container{
+	 justify-content:space-between;/*justify-content:flexbox'a ait bir özelliktir.içeriklerin arasındaki boşluğu sağlar.*/
+	 
+ }
+ 
+ .col3{ /*yani 3 tane sütundan oluşacak*/
+	 flex-grow:1;/*sütun uzunluğunu eşitler*/
+	 width:33.33%;/*neden bu genişliği 33% şeklinde yaptım çünkü sütunu 3'e böldük.mesela col2 de genişliği %50 yapcam*/
+      font-family:center;/*tekrar bak*/
+	  
+	}
+ 
+ 
+
+ .col6{ 
+
+	  flex-grow:1;/*sütun uzunluğunu eşitler*/
+	 width:33.33%;/*neden bu genişliği 33% şeklinde yaptım çünkü sütunu 3'e böldük.mesela col2 de genişliği %50 yapcam*/
+      font-family:center;/*tekrar bak*/
+
+	}
+
+   /*HOME SETTINGS*/
+
+
+ .item{
+	padding:10px 20px;
+ }
+ 
+.zoom{
+ position:relative;	/*genel özellik.yani kendisinin bir alanı olsun*/
+ overflow:hidden;
+ display:inline-block;
+ width:100%;
+ vertical-align:top;
+} 
+
+.zoom img{
+  display:block;
+  width:100%;
+  /*height:auto;  */
+  transition:all .5 ease;
+}
+
+/*resimlerdeki container ,yazı ve başlıklar*/
+.item .itemText{
+  text-align:center;
+  padding:5px;
+  border:none;  
+	
+}
+
+.item:hover .zoom img{
+   transform:scale(1.25);/* yani üzerine gelindiğinde büyüklüğü 1.25 oranında artsın*/
+}
+
+.item:hover h4{
+	color:#fff;
+}
+.item:hover .itemText{
+	background:#4f78e9;
+	color:#fff;
+    transition:all .5 ease;
+}
+
+.itemText p{
+  margin:20px 0;	
+}
+ 
+ footer{
+	background:#373837;
+    text-align:center;
+	padding-top: -250px;
+
+ }
+
+ .footerItem{
+	padding:20px; 
+ }
+ 
+
+ footer h3{
+    color:#fff;
+    font-size:18px;	
+	letter-spacing:2px;/*harfler arası boşluk için letter-spacing kullanılır*/
+	margin-bottom:10px;
+ }
+ footer .fa{
+	font-size:40px;
+    color:#95a5a6;
+    line-height:50px;	
+	transition:.3s ease;/*üzerine gelince renk değişmesi için yani renk 3sn içinde */
+ }
+ footer .fa:hover{
+	 color:#fff;
+ }
+ footer p{
+	 color:#95a5a6;
+	 line-height:20px;
+ }
+ .footerLinks a{
+	 text-decoration:none;
+	 color:#95a5a6;
+	 letter-spacing:2px;
+	 transition:.3s ease;/*üzerine gelince renk değişmesi için yani renk 3sn içinde */
+	 
+ }
+ .footerLinks a:hover{
+	 color:#fff;
+	 text-decoration:underline;
+ }
+ .socialLinks #social{
+     display:inline-block;/*hepsini aynı sıraya yani yan yana koyuyor.*/
+     width:50px;
+	 height:50px;
+
+	 
+ }
+  
+ 
